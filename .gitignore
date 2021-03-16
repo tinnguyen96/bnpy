@@ -21,6 +21,8 @@ api/
 bnpy.egg-info/
 .ipynb_checkpoints/
 .idea/
+experiments/logs/
+experiments/tmp/
 
 # EXCLUDE FILE PATTERNS
 # ---------------------
@@ -80,3 +82,6 @@ TextFileReaderX.c
 *.synctex.gz
 *.out
 *.bak
+
+# large datasets
+bnpy/datasets/big_wiki/
